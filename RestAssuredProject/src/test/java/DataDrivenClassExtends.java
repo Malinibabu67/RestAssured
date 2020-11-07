@@ -7,7 +7,7 @@
 	
 	public class DataDrivenClassExtends extends DataForTests {
 				
-		
+		//
 		@Test(dataProvider= "Test for post")
 		public void test_Post(String firstname, String lastName, int id) {
 			JSONObject request = new JSONObject();
